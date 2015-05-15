@@ -1,7 +1,7 @@
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 @import url(http://fonts.googleapis.com/css?family=Rock+Salt);
-@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light+Two);
 @import url(http://fonts.googleapis.com/css?family=Paprika);
+@import url(http://fonts.googleapis.com/css?family=Marvel);
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -1072,7 +1072,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
-  background-color: #d5fcff;
+  background-color: #d8e8ea;
 }
 input,
 button,
@@ -1117,7 +1117,7 @@ img {
 .img-thumbnail {
   padding: 4px;
   line-height: 1.42857143;
-  background-color: #d5fcff;
+  background-color: #d8e8ea;
   border: 1px solid #dddddd;
   border-radius: 4px;
   transition: all 0.2s ease-in-out;
@@ -1506,7 +1506,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-family: "Marvel", Georgia, Times, serif;
 }
 code {
   padding: 2px 4px;
@@ -2265,7 +2265,7 @@ th {
   border-top: 2px solid #dddddd;
 }
 .table .table {
-  background-color: #d5fcff;
+  background-color: #d8e8ea;
 }
 .table-condensed > thead > tr > th,
 .table-condensed > tbody > tr > th,
@@ -3888,7 +3888,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
   color: #555555;
-  background-color: #d5fcff;
+  background-color: #d8e8ea;
   border: 1px solid #dddddd;
   border-bottom-color: transparent;
   cursor: default;
@@ -3934,7 +3934,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .nav-tabs.nav-justified > .active > a,
   .nav-tabs.nav-justified > .active > a:hover,
   .nav-tabs.nav-justified > .active > a:focus {
-    border-bottom-color: #d5fcff;
+    border-bottom-color: #d8e8ea;
   }
 }
 .nav-pills > li {
@@ -4002,7 +4002,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .nav-tabs-justified > .active > a,
   .nav-tabs-justified > .active > a:hover,
   .nav-tabs-justified > .active > a:focus {
-    border-bottom-color: #d5fcff;
+    border-bottom-color: #d8e8ea;
   }
 }
 .tab-content > .tab-pane {
@@ -4844,7 +4844,7 @@ a.badge:focus {
   padding: 4px;
   margin-bottom: 20px;
   line-height: 1.42857143;
-  background-color: #d5fcff;
+  background-color: #d8e8ea;
   border: 1px solid #dddddd;
   border-radius: 4px;
   transition: border 0.2s ease-in-out;
@@ -5225,7 +5225,7 @@ a.list-group-item-danger.active:focus {
 }
 .panel {
   margin-bottom: 20px;
-  background-color: ;
+  background-color: #ffffff;
   border: 1px solid transparent;
   border-radius: 4px;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
@@ -6478,9 +6478,36 @@ button.close {
     display: none !important;
   }
 }
-.page-header h2 {
-  font-family: "Shadows Into Light Two", Georgia, Times, serif;
+.page-header h1 {
+  font-family: "Marvel", Georgia, Times, serif;
+}
+.page-header h3 {
+  font-family: "Marvel", Georgia, Times, serif;
+}
+#head-calidad {
+  background-color: #CD8AFF;
+}
+#head-running {
+  background-color: #FFD28A;
+}
+#head-meditacion {
+  background-color: #8BFFF4;
 }
 .panel-body {
   font-family: "Paprika", Georgia, Times, serif;
+}
+#body-calidad {
+  background-color: #E0B9FD;
+}
+#body-running {
+  background-color: #FDE3B9;
+}
+#body-meditacion {
+  background-color: #B9FDF6;
+}
+#cajas-calidad h3 {
+  background-color: #CD8AFF;
+}
+#cajas-calidad p {
+  background-color: #E0B9FD;
 }

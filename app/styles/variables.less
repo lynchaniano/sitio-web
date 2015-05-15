@@ -1,37 +1,89 @@
 //
 //@text-color:            #fff;
-
-
-
-
 //TIPOGRAFÍA
-@font-family-sans-serif:  "Rock Salt", Helvetica, Arial, sans-serif;
-@font-family-base:        @font-family-sans-serif;//General
-
-@font-titulos:      "Shadows Into Light Two", Georgia, Times, serif;//cabecera
-@font-family-serif:       "Paprika", Georgia, Times, serif;//parrafo
-
+@font-family-sans-serif: "Rock Salt",
+Helvetica,
+Arial,
+sans-serif;
+@font-family-base: @font-family-sans-serif; //General
+@font-family-monospace: "Marvel",
+Georgia,
+Times,
+serif; //cabecera
+@font-family-serif: "Paprika",
+Georgia,
+Times,
+serif; //parrafo
 
 //COLORES DE FONDO
-@body-bg:               #D5FCFF;
-@panel-bg:                    ;
+@body-bg: #D8E8EA;
+//@panel-bg: #B9FDF6;
+@carousel-control-color: #8A0808;
 
 
 
 
-@carousel-control-color:                      #8A0808;
-
-
-
-
-//Custom index.html
-
-.page-header h2{
-  font-family: @font-titulos;
+//CUSTOM index.html
+.page-header h1{
+    font-family: @font-family-monospace;
+    
+}
+.page-header h3{
+    font-family: @font-family-monospace;
+    
+}
+#head-calidad{
+	background-color: #CD8AFF;
+	
+}
+#head-running{
+	background-color: #FFD28A;
 
 }
-
+#head-meditacion {
+        background-color:#8BFFF4;
+}
+//paneles:
 .panel-body {
-  font-family: @font-family-serif;
-  
+    font-family: @font-family-serif;
 }
+#body-calidad{
+	background-color: #E0B9FD;
+}
+#body-running{
+	background-color: #FDE3B9;
+}
+#body-meditacion{
+	background-color: #B9FDF6;
+}
+
+//CUSTOM calidad.html
+
+#titulo-calidad {
+	@text-color:            #E0B9FD;
+}
+
+#cajas-calidad {
+	h3{
+		background-color: #CD8AFF;
+	}
+	p{
+	background-color: #E0B9FD;
+
+}
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
