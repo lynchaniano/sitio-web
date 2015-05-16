@@ -11,18 +11,17 @@
     <!-- build:css styles/vendor.css -->
     <!-- endbower -->
     <!-- bower:css -->
+    <link rel="stylesheet" type="text/css" href="../bower_components/font-awesome/css/font-awesome.min.css">
     <!-- endbuild -->
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
-    <link href="styles/css/modern-business.css" rel="stylesheet">
-    <script src="../bower_components/font-awesome/css/font-awesome.css"></script>
-    <link href="styles/css/amazingslider-1.css" rel="stylesheet">
-
+    <link href="styles/modern-business.css" rel="stylesheet">
     <!-- endbuild -->
     <link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Paprika' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Marvel' rel='stylesheet' type='text/css'>
     <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="../bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
 </head>
 
@@ -67,8 +66,12 @@
         </div>
         <!-- /.container -->
     </nav>
+    <div class="col-lg-12">
+                <h1 class="page-header">Dime como Duermes 
+                   
+                </h1>
     <!-- Header Carousel -->
-    <header id="myCarousel" class="carousel slide">
+    <div id="myCarousel" class="carousel slide">
         <!-- Indicators -->
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -78,13 +81,13 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
             <div class="item active">
-                <img src="images/slider_meditacion.jpg" height="1000" width="2000" alt="meditacion">
+                <a href="meditacion.html"> <img src="images/slider_meditacion.jpg" height="1000" width="2000" alt="meditacion"></a>
             </div>
             <div class="item">
-                <img src="images/slider_running.jpg" height="1000" width="2000" alt="running">
+                <a href="running.html"> <img src="images/slider_running.jpg" height="1000" width="2000" alt="running"></a>
             </div>
             <div class="item">
-                <img src="images/slider_dormir.jpg" height="1000" width="2000" alt="dormir">
+                <a href="calidad.html"><img src="images/slider_dormir.jpg" height="1000" width="2000" alt="calidad"></a>
             </div>
         </div>
         <!-- Controls -->
@@ -94,16 +97,14 @@
         <a class="right carousel-control" href="#myCarousel" data-slide="next">
             <span class="icon-next"></span>
         </a>
-    </header>
+    </div>
     <!-- Page Content -->
     <div class="container">
         <!-- Marketing Icons Section -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">
-                    Dime cómo duermes
-                </h1>
-                <h3>Proyecto de investigación dedicado a estudiar la relación entre la Calidad de Sueño, el Running y la Meditación Trascendental</h3>
+                <h3 class="page-header">Proyecto de investigación dedicado a estudiar la relación entre la Calidad de Sueño, el Running y la Meditación Trascendental</h3>
+               
             </div>
             <div class="col-md-4">
                 <div class="panel panel-default">
@@ -152,36 +153,37 @@ y Calidad de Sueño
         <!-- Footer -->
         <footer>
             <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+                <div class="col-sm-8">
+                    <p>Redes Sociales</p>
+                    <ul class="list-unstyled list-inline list-social-icons">
+                        <li>
+                            <a href="https://www.facebook.com/nolaniano"><i class="fa fa-facebook-square fa-2x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/hp/?dnr=j1md8RK9tsXOTvTjjpYnu4FLZs4_TX5sAKQT"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/"><i class="fa fa-twitter-square fa-2x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/u/3/"><i class="fa fa-google-plus-square fa-2x"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <p>Proyecto de Master en Investigación en Psicología 2015</p>
                 </div>
             </div>
         </footer>
     </div>
     <!-- /.container -->
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
-    "use strict" (function(b, o, i, l, e, r) {
-        b.GoogleAnalyticsObject = l;
-        b[l] || (b[l] =
-            function() {
-                (b[l].q = b[l].q || []).push(arguments)
-            });
-        b[l].l = +new Date;
-        e = o.createElement(i);
-        r = o.getElementsByTagName(i)[0];
-        e.src = '//www.google-analytics.com/analytics.js';
-        r.parentNode.insertBefore(e, r)
-    }(window, document, 'script', 'ga'));
-    ga('create', 'UA-XXXXX-X');
-    ga('send', 'pageview');
-    </script>
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../bower_components/fluidvids/dist/fluidvids.min.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:js scripts/plugins.js -->
-    <script src="scripts/jquery.js"></script>
     <script src="../bower_components/bootstrap/js/affix.js"></script>
     <script src="../bower_components/bootstrap/js/alert.js"></script>
     <script src="../bower_components/bootstrap/js/dropdown.js"></script>
@@ -197,17 +199,7 @@ y Calidad de Sueño
     <!-- endbuild -->
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
-    <script src="scripts/amazingslider.js"></script>
-    <script src="scripts/initslider-1.js"></script>
-    
     <!-- endbuild -->
-    <!-- Script to Activate the Carousel -->
-    <script>
-    $('.carousel').carousel({
-        interval: 5000 //changes the speed
-    });
-    </script>
-    
 </body>
 
 </html>
