@@ -6,6 +6,7 @@
     "modernizr": "~2.8.1",
     "bootstrap": "~3.3.2",
     "font-awesome": "~4.3.0",
-    "fluidvids": "~2.4.1"
+    "fluidvids": "~2.4.1",
+    "jshint": "~2.7.0"
   }
 }
