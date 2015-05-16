@@ -1,3 +1,5 @@
+@import "css/amazingslider-1.css";
+@import "css/modern-business.css";
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 @import url(http://fonts.googleapis.com/css?family=Rock+Salt);
 @import url(http://fonts.googleapis.com/css?family=Paprika);
@@ -6493,6 +6495,9 @@ button.close {
 #head-meditacion {
   background-color: #8BFFF4;
 }
+#head-cuestionario {
+  background-color: #B9FDE2;
+}
 .panel-body {
   font-family: "Paprika", Georgia, Times, serif;
 }
@@ -6505,9 +6510,6 @@ button.close {
 #body-meditacion {
   background-color: #B9FDF6;
 }
-#cajas-calidad h3 {
-  background-color: #CD8AFF;
-}
-#cajas-calidad p {
-  background-color: #E0B9FD;
+#body-cuestionario {
+  background-color: #8BFFD1;
 }

@@ -6,21 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
-    <title>Acerca de</title>
+    <title>Principal</title>
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css styles/vendor.css -->
-    <!-- bower:css -->
-    <link href="../bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <!-- Custom Fonts -->
     <!-- endbower -->
+    <!-- bower:css -->
     <!-- endbuild -->
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
-    <!-- build:js scripts/vendor/modernizr.js -->
-    <script src="../bower_components/modernizr/modernizr.js"></script>
-    <!-- Custom CSS -->
     <link href="styles/css/modern-business.css" rel="stylesheet">
+    <script src="../bower_components/font-awesome/css/font-awesome.css"></script>
     <!-- endbuild -->
+    <link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Paprika' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Marvel' rel='stylesheet' type='text/css'>
+    <!-- build:js scripts/vendor/modernizr.js -->
+
     <!-- endbuild -->
 </head>
 
@@ -65,6 +66,41 @@
         </div>
         <!-- /.container -->
     </nav>
+    <!-- Insert to your webpage where you want to display the slider -->
+    <div class="container">
+        <div class="row">
+            <div id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:720px;margin:0px auto 60px;">
+                <div id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
+                    <ul class="amazingslider-slides" style="display:none;">
+                        <li>
+                            <a href="http://www.youtube.com/embed/d8UtYDR-LT8?v=d8UtYDR-LT8&feature=youtu.be" class="html5lightbox"><img src="images/Captura%20de%20pantalla%202015-05-15%20a%20la%28s%29%2022.19.26.png" alt="https://youtube.com/devicesupport" data-duration="5000" /></a>
+                        </li>
+                        <li>
+                            <a href="http://www.youtube.com/embed/0WLiQPBp6Ow?v=0WLiQPBp6Ow" class="html5lightbox"><img src="images/0WLiQPBp6Ow.jpg" alt="https://youtube.com/devicesupport" data-duration="3000" /></a>
+                            <button class="as-btn-blue-small">3er</button>
+                        </li>
+                        <li>
+                            <a href="http://www.youtube.com/embed/5FTA9E3cIw4?v=5FTA9E3cIw4" class="html5lightbox"><img src="images/5FTA9E3cIw4.jpg" alt="https://youtube.com/devicesupport" /></a>
+                        </li>
+                        <li>
+                            <a href="http://www.youtube.com/embed/DCyjTImNG4w?v=DCyjTImNG4w" class="html5lightbox"><img src="images/DCyjTImNG4w.jpg" alt="https://youtube.com/devicesupport" /></a>
+                        </li>
+                        <li>
+                            <a href="http://www.youtube.com/embed/5-mSRPb5GLM?v=5-mSRPb5GLM" class="html5lightbox"><img src="images/5-mSRPb5GLM.jpg" alt="https://youtube.com/devicesupport" /></a>
+                        </li>
+                    </ul>
+                    <ul class="amazingslider-thumbnails" style="display:none;">
+                        <li><img src="images/Captura%20de%20pantalla%202015-05-15%20a%20la%28s%29%2022.19.26-tn.png" alt="https://youtube.com/devicesupport" /></li>
+                        <li><img src="images/0WLiQPBp6Ow-tn.jpg" alt="https://youtube.com/devicesupport" /></li>
+                        <li><img src="images/5FTA9E3cIw4-tn.jpg" alt="https://youtube.com/devicesupport" /></li>
+                        <li><img src="images/DCyjTImNG4w-tn.jpg" alt="https://youtube.com/devicesupport" /></li>
+                        <li><img src="images/5-mSRPb5GLM-tn.jpg" alt="https://youtube.com/devicesupport" /></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of body section HTML codes -->
     <!-- Page Content -->
     <div class="container">
         <!-- Page Heading/Breadcrumbs -->
@@ -73,10 +109,6 @@
                 <h1 class="page-header">Acerca de esta Web
                     <small>Características y Tecnologías utilizadas</small>
                 </h1>
-                <ol class="breadcrumb">
-                    <li><a href="index.html">Home</a>
-                    </li>
-                </ol>
             </div>
         </div>
         <!-- /.row -->
@@ -102,7 +134,6 @@
                 <div class="thumbnail">
                     <img class="img-responsive" src="images/bootstrap-logo.png" height="720" width="1280" alt="Bootstrap">
                     <div class="caption">
-                        
                     </div>
                 </div>
             </div>
@@ -110,12 +141,10 @@
                 <div class="thumbnail">
                     <img class="img-responsive" src="images/Less-logo.png" height="720" width="1280" alt="Less">
                     <div class="caption">
-                        
                     </div>
                 </div>
             </div>
-            
-            
+        </div>
         <!-- /.row -->
         <!-- Herramientas -->
         <div class="row">
@@ -134,7 +163,6 @@
             <div class="col-md-2 col-sm-4 col-xs-6">
                 <img class="img-responsive customer-img" src="images/jquery-logo.jpg" height="300" width="500" alt="">
             </div>
-            
         </div>
         <!-- /.row -->
         <hr>
@@ -167,10 +195,13 @@
     </script>
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
-    <script src="../bower_components/jquery/dist/jquery.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:js scripts/plugins.js -->
+    <script src="scripts/jquery.js"></script>
+    <script src="scripts/initslider-1.js"></script>
+    <script src="scripts/amazingslider.js"></script>
+    
     <script src="../bower_components/bootstrap/js/affix.js"></script>
     <script src="../bower_components/bootstrap/js/alert.js"></script>
     <script src="../bower_components/bootstrap/js/dropdown.js"></script>
@@ -187,6 +218,12 @@
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
     <!-- endbuild -->
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 3000 //changes the speed
+    });
+    </script>
 </body>
 
 </html>

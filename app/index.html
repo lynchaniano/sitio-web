@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="styles/main.css">
     <link href="styles/css/modern-business.css" rel="stylesheet">
     <script src="../bower_components/font-awesome/css/font-awesome.css"></script>
+    <link href="styles/css/amazingslider-1.css" rel="stylesheet">
+
     <!-- endbuild -->
     <link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Paprika' rel='stylesheet' type='text/css'>
@@ -179,6 +181,7 @@ y Calidad de Sueño
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:js scripts/plugins.js -->
+    <script src="scripts/jquery.js"></script>
     <script src="../bower_components/bootstrap/js/affix.js"></script>
     <script src="../bower_components/bootstrap/js/alert.js"></script>
     <script src="../bower_components/bootstrap/js/dropdown.js"></script>
@@ -194,13 +197,17 @@ y Calidad de Sueño
     <!-- endbuild -->
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
+    <script src="scripts/amazingslider.js"></script>
+    <script src="scripts/initslider-1.js"></script>
+    
+    <!-- endbuild -->
     <!-- Script to Activate the Carousel -->
     <script>
     $('.carousel').carousel({
-        interval: 3000 //changes the speed
-    })
+        interval: 5000 //changes the speed
+    });
     </script>
-    <!-- endbuild -->
+    
 </body>
 
 </html>
